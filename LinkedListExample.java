@@ -20,7 +20,7 @@ class LinkedList {
      */
     public void prepend(int value) {
         // Just add at the beginning
-        this.root = new Node(value, this.root);
+        this.root = new Node(value, null);
     }
     /**
      * Adds the value to the _end_ of the list
